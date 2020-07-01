@@ -28,10 +28,12 @@ p{
 .top-banner{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, #ec4c7a, tomato);
+    box-shadow: 10px 10px 30px gray;
     padding: 10px 20px;
     border-radius: 5px;
     color: white;
@@ -43,6 +45,7 @@ section{
 .biography-bg{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .latest-work{
     text-align: center;
@@ -50,6 +53,7 @@ section{
 .work{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
+    background-position: center;
 }
 .center{
     text-align: center;
@@ -58,16 +62,16 @@ section{
     background-image: linear-gradient(45deg,#ed4b6b,#ec5191);
     color: white;
     width: 500px;
-    height: 150px;text-align: center;
-    margin-left: 31%;
-    border-radius: 10px;
+    height: 150px;
+    text-align: center;
+    border-radius: 12px;
     margin-top: 20px;
+}
+.contact{
+    box-shadow: 10px 10px 40px gray;
 }
 .all-work{
     background-image: url(images/latest-work-bg.png);
-}
-#worked{
-    height: 500px;
 }
 .img{
     height: 250px;
@@ -77,6 +81,7 @@ section{
 }
 .footer-img{
     background-image: url(images/footer-bg.png);
+    background-position: center;
 }
 footer p{
     text-align: center;
